@@ -1,0 +1,87 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    color: white;
+    justify-content:left;
+    padding:0 1% 0 1%;
+    font-weight: 600;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 99%;
+    margin:0;
+    padding:0;
+    /* backgrosund-color: aqua; */
+}
+#navbar_head{
+    margin:1% 0 0 0;
+    padding:0;
+}
+body{
+    background-image:url('./Pictures/BodyBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_box{
+    position:relative;
+    top:25px;
+    height: 500px;
+    width: 500px;
+    /* background-color: wheat; */
+    border-radius: 10%;
+    border-color:white;
+    border-width: 2px;
+    border-style:dotted;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5%; */
+}
+.login_details{
+    /* background-color: saliceblue; */
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    position: relative;
+}
+.login_input{
+    padding:0;
+    margin: 0;
+    height:100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+#login_button{
+    height: 10%;
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%
+}
+span{
+    font-size: smaller;
+    visibility: hidden;
+}
